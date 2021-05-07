@@ -91,24 +91,36 @@
     .header {
         height: 85px;
         width: 100%;
-
+        display: inline;
+        color: #4a4a4a;
+        font-family: Roboto; 
     }
 
     .desktop-logo {
         margin-left: 30px;
-        float: left; 
+        float: left;
+        font-size: 32px;
+        line-height: 1.6; 
+        position: relative;
+        top: 50%;
     }
 
     .desktop {
         margin-right: 30px;
         float: right;
+        position: relative;
+        top: 50%;
     }
 
     .desktop li {
         display: inline;
-        color: #4a4a4a;
         font-size; 16px;
-        font-family: Roboto;
         line-height: 1.6;
     }
+
+    .button {
+        max-height: 16px;
+    }
+
+    
 }
